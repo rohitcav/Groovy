@@ -1,3 +1,5 @@
+package Basics
+
 class Laptop{
     def brand
     def price
@@ -12,9 +14,9 @@ class Laptop{
         println("**************************************************")
         laptop.login()
         laptop.logout()
-        println("Laptop brand is: "+laptop.brand)
-        println("Laptop price is: "+laptop.price)
-        println("Laptop year is: "+laptop.year)
+        println("Basics.Laptop brand is: "+laptop.brand)
+        println("Basics.Laptop price is: "+laptop.price)
+        println("Basics.Laptop year is: "+laptop.year)
 
     }
     def login(){
